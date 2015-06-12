@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Intro to Programming</title>
+</head>
+<body>
+<div class="document">
+	<div class="border">
+<div class="h1">
+<h1>INTRODUCTION TO PROGRAMMING:<br>
+Stage One Notes</h1>
+</div>
+<br>
+<div class="h2">
+<h2>
+	<b><u>1.1 Basics of the Web</u></b>
+</h2>
+</div>
+<p>
+<b>WWW</b>: a collection of HTML docs (<em>basis of the web</em>)
+<br>
+<b>HTML</b>: stands for Hypertext Markup Languages (<em>glues everything together</em>)
+<br>
+<b>Hyperlinks</b>: glue pages together, making them "weblike"
+<br>
+</p>
+
+<b>Major Pieces of the Web</b>:
+<div class="indent">
+The web is made of three components: <b>you</b>, <b>the internet</b>, <em>HTTP</em>, <b>servers</b>, where "<b>you</b>" consists of yourself (!), a computer and a browser.</div>
+<br>
+
+<b>HTML</b>:
+<div class="indent">
+Is made up of <b>text content</b> (<em>what you see</em>), 
+<b>mark ups</b> (<em>what it looks like</em>)
+and <b>references to other documents</b> (<em>images, videos, etc.</em>).
+
+<p>
+<b>Sample HTML Markups:</b>
+<ul style=list-style-type:disc>
+<li><b>bold</b>: <code>&lt;</code><code>b</code><code>></code><code>contents</code>
+<code>&lt;</code><code>/b></code></li>
+<li><em>italics</em>: <code>&lt;</code><code>em</code><code>></code><code>contents</code>
+<code>&lt;</code><code>/em></code></li>
+<li>link: <code>&lt;</code><code>TAG ATTR="value"</code><code>></code><code>contents</code>
+<code>&lt;</code><code>/TAG></code></li>
+<li><code>TAG </code>anchor: <code>&lt;</code><code>a></code><code>&lt;</code><code>/a></code></li>
+</ul>
+Sooo....to <a href="http://www.google.com">create a link</a>: <code>&lt;</code><code>a href="www.google.com"</code><code>></code><code>text</code><code>&lt;</code><code>/a></code>
+<br><br>
+<b><em>Images</em></b>: <code>&lt;</code><code>img></code> ...and.... <code>&lt;</code><code>img src="url" alt="text"></code>
+<ul style=list-style-type:disc>
+<li>Why the "alt" text? Because...it is nice if the image does not display text indicates <em>what</em> the image might have been. this is nice for peeps who are blind or searches (I think). :) </li>
+<li>Also, images don't have closing b/c they are <b>void tags</b> with no content (text).</li>
+</ul></div>
+
+<br>
+<b>White Space</b>:
+<div class="indent">
+Break: <code>&lt;</code><code>br></code> tag <em>or</em> <b>void tag</b><br>
+Paragraph: <code>&lt;</code><code>p></code><code>contents</code><code>&lt;</code><code>/p></code>
+</div>
+
+<br>
+<b>Inline v. Block Elements</b>:<br>
+<div class="indent"><em>Why two?</em>
+<ul style=list-style-type:disc>
+<li><code>&lt;</code><code>br></code> tag is an <b>inline element</b> (end of a line)
+</li>
+<li><code>&lt;</code><code>p></code> tag is a <b>block element</b>
+</li></ul>
+A sort of "box" is created around the text (<em>sort of</em> b/c it is sort of...invisible!).
+</div>
+</div>
+
+<div class="border">
+<div class="h2">
+   <h2><u>1.2 Intro to Programming</u></h2>
+</div>
+<p>
+Over time, you will see HTML code as a webpage / see a webpage as HTML.<br>
+</p>
+<p>
+<b>HTML, CSS</b> & <b>Javascript</b> are all languages and have different purposes w/in a webpage:<br>
+<div class="indent">
+<b>HTML</b> - what's inside the webpage<br>
+<b>CSS</b> - style of the webpage<br>
+<b>Java Script</b> - the interactive elements<br>
+<ul style=list-style-type:disc>
+<li>This section focuses on <b>HTML</b> (structure) and <b>CSS</b> (style).</li>
+<li>These elements are organized into <em>tree-like structures</em> called <b>DOMs</b>. </li>
+<li><b>Document Object Models</b> - tree-like structures of a webpage<br>
+(you will hear programmers refer to them as "DOMs")</li></ul>
+Using Chrome, open "Developer Tools" and you can take a look at the structure of any page.
+</div>
+
+<p>
+<b>"Boxes, Boxes, Everywhere!"</b><br>
+<div class="indent">
+All elements on a webpage can be drawn into boxes, which are difined using <b>div tags</b>:
+<ul style=list-style-type:disc>
+<li><code>&lt;</code><code>div</code><code>></code><code>&lt;</code><code>/div</code><code>></code></li>
+<li>ex.: If you have 4 tags, you will have 4 boxes on your page.</li>
+</ul>
+Use content w/in the tag to serve as place holders when you are:
+<ul style=list-style-type:disc>
+<li><code>&lt;</code><code>div</code><code>></code>title<code>&lt;</code><code>/div</code><code>></code></li>
+<li><code>&lt;</code><code>div</code><code>></code>body<code>&lt;</code><code>/div</code><code>></code></li>
+<li><code>&lt;</code><code>div</code><code>></code>image<code>&lt;</code><code>/div</code><code>></code> </li>
+</ul>
+</div>
+</div>
+
+<div class="border">
+<div class="h2">
+<h2>
+<u>1.3 Adding CSS Style & HTML Structure</u>
+</h2>
+</div>
+
+<b>"Learning to program is like building a house."</b><br>
+<div class="indent">
+You need to:<ul style=list-style-type:disc>
+<li>Design the house.</li>
+<li>Use tools to build it.</li>
+</ul></div>
+<b>Tool complexity is increasing!</b>
+<br>
+<div class="indent">
+<b>Quick Guide:</b> tutorials, videos<br>
+<b>W3C:</b> verify code for HTML & CSS
+</div>
+<br>
+<b>What is CSS?</b><br>
+<div class="indent">
+<b>CSS</b> - stands for <i>Cascading Style Sheet</i>
+<ul style=list-style-type:disc>
+<li> Website can have several style sheets.</li>
+<li> Think of them in terms of "laws".</li>
+</ul>
+</div>
+<p>
+<b>Inheritance</b>
+(<i>super-important concept!</i>) 
+<div class="indent">
+Because of the law of inheritance (??? is it a law???),
+properties are applied to not only a specific element, but 
+also its descendents. <a href="http://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)">Read more</a>.<br>
+<ul style=list-style-type:disc>
+<li>
+<i>Inheritance relies on the document tree.</i></li>
+<li>Quick example: <i>What happens when you forget to close a </i><code>&lt;</code><code>b</code><code>></code><i> tag?</i></li>
+</ul>
+</div>
+<p>
+<b>Code, Test, Refine, Repeat</b>:
+<ol type="1">
+<li>Look for natural boxes.</li>
+<li>Look for repeated styles and semantic elements.</li>
+<li>Write HTML.</li>
+<li>Apply styles.</li>
+<li>Repeat steps 3 and 4.</li>
+</ol>
+
+</div>
+   
+ </div>  
+  </body>
+ 
+</html>
